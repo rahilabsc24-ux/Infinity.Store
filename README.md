@@ -12,29 +12,6 @@ A complete MERN project with a real API,database, authentication, persisted orde
 - **Order history**: customers see their own orders
 - **Admin dashboard** (admin role): manage orders and their status, add and delete products
 
-## Project structure
-
-```
-infinity-store/
-├── client/                # React 18 + Vite + React Router + Tailwind CSS v4
-│   ├── public/products/   # product images
-│   └── src/
-│       ├── components/    # Header, ProductCard, Hero, ...
-│       ├── context/       # AuthContext, CartContext
-│       ├── hooks/         # useAsync
-│       ├── lib/           # api client, formatting, pricing
-│       └── pages/         # Home, Products, ProductDetail, Cart, Checkout, Orders, Admin, ...
-└── server/                # Node.js + Express 5 + Mongoose
-    └── src/
-        ├── config/        # MongoDB connection
-        ├── data/          # seed catalog
-        ├── middleware/    # JWT auth, admin guard, error handling
-        ├── models/        # User, Product, Order
-        ├── routes/        # /api/auth, /api/products, /api/orders
-        ├── seed.js        # loads catalog + creates admin
-        └── index.js       # app entry point
-```
-
 ## API reference
 
 | Method | Endpoint                    | Auth      | Description                              |
