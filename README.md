@@ -1,8 +1,7 @@
-# Infinity — MERN Storefront
+# Infinity — Store
 
 A full-stack e-commerce app built with **M**ongoDB, **E**xpress, **R**eact and **N**ode.js.
-It is a conversion of the original Next.js storefront into a complete MERN project with a real API,
-database, authentication, persisted orders, and an admin dashboard.
+A complete MERN project with a real API,database, authentication, persisted orders, and an admin dashboard.
 
 ## Features
 
